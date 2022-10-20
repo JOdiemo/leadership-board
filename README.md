@@ -31,6 +31,9 @@ This is a gaming board where you can add Users and Scores to the list and it wil
 To get a local copy up and running follow these simple example steps.
 1. Clone the repository: https://github.com/JOdiemo/leaderboard/tree/leaderboard-final
 2. Copy to your local disc: you@your-Pc-name:~$ cd <folder>
+3. Once you have it on local disc, type this on your terminal "cd leadership-board"
+4. then type "npm run build "
+5. finaly type npm run start"
 
 ## Authors
 
