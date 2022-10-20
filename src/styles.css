@@ -1,0 +1,84 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+h1 {
+  padding-left: 15%;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-self: center;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 4%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.refresh {
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 180px;
+  font-size: 18px;
+  transition: all 0.5s;
+  box-shadow: 0 5px #666;
+  cursor: pointer;
+  padding: 20px;
+  height: 50px;
+}
+
+#submitting {
+  float: right;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 180px;
+  font-size: 18px;
+  transition: all 0.5s;
+  box-shadow: 0 5px #666;
+  cursor: pointer;
+  height: 50px;
+  margin-right: 0;
+}
+
+#submitting:active,
+.refresh:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.userboard {
+  text-align: left;
+  padding: 1em;
+  border: 1px solid black;
+  width: 500px;
+}
+
+.userboard td {
+  padding: 10px;
+}
+
+.userboard tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+input {
+  height: 40px;
+  width: 250px;
+}
+
+footer {
+  margin-bottom: 0;
+  padding-left: 25%;
+  padding-top: 250px;
+}
